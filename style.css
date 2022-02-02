@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+/* section1 or nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+    font-size: 20px;
+  
+}
+
+nav .nav_left a{
+    text-decoration: none;
+    margin-left: 200px;
+    color: white;
+    font-weight: bold ;
+   
+}
+nav .nav_right a{
+    text-decoration: none;
+    margin: 30px;
+    font-weight: bold; 
+    color: white;
+}
+nav .nav_right .nav_right1{
+    margin-left: 500px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+nav a:hover{
+   color: rgb(23, 119, 223);
+ }
+body img{
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+nav .Title{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 500px;
+    right: 500px;
+    left: 500px;
+    transform: translate(40%,-200%);
+}
+nav .Title h1{
+    text-shadow: 2px 2px rgb(53, 47, 47);
+    font-size: 48px;
+}
+nav .Title p{
+    font-size: 18px;
+}
+/* section2 */
+section .section2{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+.section2 .section2_text{
+    margin-left: 100px;
+    font-size: 18px;
+}
+.section2 .section2_text h2{
+    margin-bottom: 15px;
+    color: rgb(23, 119, 223);
+    font-family: 'Roboto', sans-serif;
+}
+.section2 .section2_text input{
+    background-color: rgb(23, 119, 223);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* section3 */
+section .section3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    
+}
+/* section4 */
+section .section4{
+    text-align: center;
+    margin-top: 200px;
+}
+section .section4 h1{
+    color: rgb(23, 119, 223);
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+section .section4 p{
+    margin-bottom: 100px;
+}
+section .section4 img{
+   margin: 10px;
+}
+/* footer */
+footer{
+    color: white;
+}
+footer .container img{
+    position: relative;
+    bottom: 0;
+    z-index: 3;
+}
+footer .container {
+    background: url(the-town-bg-02.jpg);
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+
+    z-index: 4;
+
+}
+ footer .contactus h1{
+     margin-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+footer .contactus p{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+footer .contactus .contactus_1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translate(-15%,110%);
+}
+footer .contactus .contactus_2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translate(-15%,200%);
+}
+
+footer .container hr{
+    margin-left: 200px;
+    width: 69%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+input[type=email] {
+    background-color: transparent;
+    padding: 10px;
+    padding-right: 90px;
+    border: solid 1px white;
+    outline: none;
+    transform: translate(70%,0%);
+    border-radius: 5px;
+}
+input::placeholder {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+input[type=submit] {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transform: translate(210%,0%);
+    font-weight: bold;
+    border-radius: 5px;
+   cursor: pointer;
+}
+footer .contactus .outer-footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 500px;
+
+}
+footer .line1{
+    background-color: white;
+    height: 8px;
+    box-sizing: border-box;
+    width: 220px;
+    position: absolute;
+    left: 200px;
+}
+footer .line2{
+    background-color: white;
+    height: 1px;
+    box-sizing: border-box;
+    width: 69%;
+    position: absolute;
+    left: 200px;
+}
